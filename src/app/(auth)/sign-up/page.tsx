@@ -1,10 +1,10 @@
-import SignIn from "@/components/SignIn";
+import SignUp from "@/components/SignUp";
 import { FC } from "react";
 
 interface Props {}
 
 const page: FC<Props> = ({}) => {
-  return <SignIn />;
+  return <SignUp />;
 };
 
 export default page;
